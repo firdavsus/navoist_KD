@@ -14,19 +14,19 @@ The model is >2x faster now! and if you apply faster-whisper transformation to a
 ## How to use 
 
 download the model.
-'''bash
+```
 python3 load.py
-'''
+```
 
 to run the server
-'''bash
+```
 python3 server.py
-'''
+```
 
 To test a model on audio of given path
 you should edit faster.py there in thiis part:
-'''bash
+```
 if __name__ == "__main__":
     t0 = time.time()
     path       = "./Usefull/rus1.wav" <- your audio file path
-'''
+```
