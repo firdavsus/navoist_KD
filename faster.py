@@ -10,7 +10,7 @@ logging.getLogger("faster_whisper").setLevel(logging.ERROR)
 class NavaiFastSTT:
     def __init__(
         self,
-        model_name: str = "./model/faster-go",
+        model_name: str = "./faster-go",
         target_sample_rate: int = 16000,
         language: str = "auto",
         is_capitalize: bool = True,
