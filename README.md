@@ -17,6 +17,7 @@ download the model.
 ```
 python3 load.py
 ```
+"but there is no token for loagin_hug" I will sent it to the telegram
 
 to run the server
 ```
