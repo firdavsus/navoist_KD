@@ -23,7 +23,7 @@ m3_path = hf_hub_download(
     cache_dir=location
 )
 
-print(os.listdir())
+subprocess.run(["mkdir", "faster-go/"])
 subprocess.run(["cp", m1_path, "faster-go/"])
 subprocess.run(["cp", m2_path, "faster-go/"])
 subprocess.run(["cp", m3_path, "faster-go/"])
