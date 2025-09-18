@@ -4,7 +4,7 @@ import subprocess
 import os
 
 login("")
-location = "./model/new/"
+location = "./new/"
 m1_path = hf_hub_download(
     repo_id="firdavsus/navoist_KD_faster",
     filename="model.bin",
@@ -24,6 +24,6 @@ m3_path = hf_hub_download(
 )
 
 print(os.listdir())
-subprocess.run(["cp", m1_path, "model/faster-go/"])
-subprocess.run(["cp", m2_path, "model/faster-go/"])
-subprocess.run(["cp", m3_path, "model/faster-go/"])
+subprocess.run(["cp", m1_path, "faster-go/"])
+subprocess.run(["cp", m2_path, "faster-go/"])
+subprocess.run(["cp", m3_path, "faster-go/"])
